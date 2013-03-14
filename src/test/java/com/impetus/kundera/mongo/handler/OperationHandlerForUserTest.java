@@ -33,7 +33,6 @@ public class OperationHandlerForUserTest
 
     public void persist()
     {
-
         Address address1 = new Address();
         address1.setAddressId("a1");
         address1.setStreet("AAAAAAA");
@@ -57,6 +56,7 @@ public class OperationHandlerForUserTest
         handler.saveUser(user1);
         handler.saveUser(user2);
         handler.clear();
+
     }
 
     @Test

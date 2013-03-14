@@ -3,5 +3,11 @@
  "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
-  <display-name>Archetype Created Web Application</display-name>
+	<display-name>Mongo Connection Sample</display-name>
+
+	<listener>
+		<listener-class>com.impetus.kundera.mongo.listener.StartUpListener</listener-class>
+	</listener>
+
+
 </web-app>
